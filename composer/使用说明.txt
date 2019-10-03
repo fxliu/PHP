@@ -1,0 +1,107 @@
+﻿----------------------------环境部署：-----------------------------------
+composer官网：https://www.phpcomposer.com/
+下载地址：https://getcomposer.org/Composer-Setup.exe  直接安装即可
+基本用法：https://www.cnblogs.com/52fhy/p/5246013.html
+-------------------------------------------------------------------------------
+----------------------------使用方法：-----------------------------------
+在项目目录下创建一个composer.json文件,以直接安装一个monolog库为例：
+配置composer.json
+{
+    "name": "ylj/testcomposer",
+    "description": "This is a test kit.",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "monolog/monolog": "1.2.*"
+    }
+}
+
+参数说明：
+name 名称
+包的名称，由作者名称和项目名称组成，使用 / 分割，例如：monolog/monolog
+包名称可以包含任何字符，包括空格，并且不区分大小写 ( foo/bar 和 Foo/Bar 会被认为是同一个包)。为了简化安装，建议定义一个不包含非字母数字字符或空格的短名称
+
+description 描述
+包的简短描述，通常这是一行介绍就行。发布一个包（库）的必要条件
+
+license
+包的许可证。可以是一个字符串或者是一个字符串数组。
+最常见的许可证推荐表示法如下（按字母排序）：Apache-2.0、MIT等
+
+require
+php 指下载依赖包时PHP版本要求
+必须安装的依赖包列表，这些包必须满足条件，否则不会安装。
+-------------------------------------------------------------------------------
+引入第三方类库依赖, 比如 monolog：
+{
+    "require": {
+        "monolog/monolog": "1.2.*"
+    }
+}
+-------------------------------------------------------------------------------
+如果不需要使用https，可以这么写，以解决有时候因为https造成的问题：
+{
+    "config": {
+        "secure-http": false
+    }
+}
+-------------------------------------------------------------------------------
+引入我们自定义的类: 方式1(配置指定)
+{
+	"autoload":{
+	    "files":["lib/Test.class.php"]
+	}
+}
+引入我们自定义的类: 方式2(自动加载)
+{
+    "autoload": {
+        "classmap": [
+            "lib"
+        ]
+    }
+}
+注：lib为目录
+------------------------------根据配置 安装依赖环境--------------------------------------
+cmd命令行： 项目目录下执行命令 composer install
+-------------------------------------------------------------------------------
+PHP中类库使用方法 见demo
+-------------------------------------------------------------------------------
+Demo运行：
+composer install
+php demo.php
+
+require 'vendor/autoload.php';
+-------------------------------------------------------------------------------
+-------------------------------其他说明------------------------------------
+composer.json详细配置项说明:
+https://laravel-china.org/docs/composer/2018/04-schema/2085
+-------------------------------------------------------------------------------
+命令汇总：
+若只安装指定的包推荐在命令行使用：
+composer require monolog/monolog
+
+如果需要指定版本：
+composer require "monolog/monolog:1.2.*"
+
+更新某个包：
+composer update monolog/monolog
+
+移除某个包：
+composer remove monolog/monolog
+
+如果手动更新了composer.json需要更新autoload：
+composer dump-autoload
+
+composer list  列出所有可用的命令
+composer init   初始化composer.json文件(就不劳我们自己费力创建啦)，会要求输入一些信息来描述我们当前的项目，还会要求输入依赖包
+
+composer install  读取composer.json内容，解析依赖关系，安装依赖包到vendor目录下
+composer update   更新最新的依赖关系到compsoer.lock文件，解析最新的依赖关系并且写入composer.lock文件
+注意：:使用composer install或者composer update命令将会更新所有的扩展包，项目中使用需谨慎！！！
+
+composer search packagename 搜索包，packagename替换为你想查找的包名称
+composer require packagename 添加对packagename的依赖，packagename可修改为你想要的包名称
+composer show packagename
+composer self-update 更新 composer.phar文件自身
+composer dump-autoload --optimize 优化一下自动加载
+composer command --help 以上所有命令都可以添加 --help选项查看帮助信息

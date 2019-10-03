@@ -1,0 +1,23 @@
+{
+    "name": "ylj/composer",
+    "description": "This is a test kit.",
+    "keywords": ["monolog"],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "monolog/monolog": "1.2.*"
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload":{
+        "files":["lib/Test.class.php"]
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
