@@ -1,0 +1,247 @@
+@charset "utf-8";
+/*----------------------------------------------------------------------------------------------------*/
+/*如果行中有"自 定 义"字样,将会被转换为PhpStorm插件提醒*/
+/*----------------------------------------------------------------------------------------------------*/
+/* esCss="mf" 命名字体 */
+*[mf=esBigTitle]{font-size: 5.6vw;color: #f76260;}     /*自定义:命名字体  42px*/
+*[mf=esTitle]{font-size: 4.8vw;color: #f76260;}        /*自定义:命名字体  36px */
+*[mf=esTextB]{font-size: 4.4vw;color: #f76260;}        /*自定义:命名字体  33px */
+*[mf=esTextS]{font-size: 3.6vw;color: #f76260;}        /*自定义:命名字体  27px */
+/* esCss="f" 常用字体 */
+*[f=f9] {font-size: 1.2vw;}	/*自定义:字体  9px */
+*[f=f12]{font-size: 1.6vw;}	/*自定义:字体 12px */
+*[f=f15]{font-size: 2.0vw;}	/*自定义:字体 15px */
+*[f=f18]{font-size: 2.4vw;}	/*自定义:字体 18px */
+*[f=f21]{font-size: 2.8vw;}	/*自定义:字体 21px */
+*[f=f24]{font-size: 3.2vw;}	/*自定义:字体 24px */
+*[f=f27]{font-size: 3.6vw;}	/*自定义:字体 27px */
+*[f=f30]{font-size: 4.0vw;}	/*自定义:字体 30px */
+*[f=f33]{font-size: 4.4vw;}	/*自定义:字体 33px */
+*[f=f36]{font-size: 4.8vw;}	/*自定义:字体 36px */
+*[f=f39]{font-size: 5.2vw;}	/*自定义:字体 39px */
+*[f=f42]{font-size: 5.6vw;}	/*自定义:字体 42px */
+*[f=f45]{font-size: 6.0vw;}	/*自定义:字体 45px */
+*[f=f48]{font-size: 6.4vw;}	/*自定义:字体 48px */
+*[f=f51]{font-size: 6.8vw;}	/*自定义:字体 51px */
+*[f=f60]{font-size: 8.0vw;}	/*自定义:字体 60px */
+*[f=f72]{font-size: 9.6vw;}	/*自定义:字体 72px */
+*[f=f81]{font-size:10.8vw;}	/*自定义:字体 81px */
+/* 常用字体 束缚行高(div高度和字体高度相同)*/
+*[f=f9h] {font-size: 1.2vw;height: 1.2vw; line-height: 1.2vw;}	/*自定义:字体（带行高）  9px */
+*[f=f12h]{font-size: 1.6vw;height: 1.6vw; line-height: 1.6vw;}	/*自定义:字体（带行高） 12px */
+*[f=f15h]{font-size: 2.0vw;height: 2.0vw; line-height: 2.0vw;}	/*自定义:字体（带行高） 15px */
+*[f=f18h]{font-size: 2.4vw;height: 2.4vw; line-height: 2.4vw;}	/*自定义:字体（带行高） 18px */
+*[f=f21h]{font-size: 2.8vw;height: 2.8vw; line-height: 2.8vw;}	/*自定义:字体（带行高） 21px */
+*[f=f24h]{font-size: 3.2vw;height: 3.2vw; line-height: 3.2vw;}	/*自定义:字体（带行高） 24px */
+*[f=f27h]{font-size: 3.6vw;height: 3.6vw; line-height: 3.6vw;}	/*自定义:字体（带行高） 27px */
+*[f=f30h]{font-size: 4.0vw;height: 4.0vw; line-height: 4.0vw;}	/*自定义:字体（带行高） 30px */
+*[f=f33h]{font-size: 4.4vw;height: 4.4vw; line-height: 4.4vw;}	/*自定义:字体（带行高） 33px */
+*[f=f36h]{font-size: 4.8vw;height: 4.8vw; line-height: 4.8vw;}	/*自定义:字体（带行高） 36px */
+*[f=f39h]{font-size: 5.2vw;height: 5.2vw; line-height: 5.2vw;}	/*自定义:字体（带行高） 39px */
+*[f=f42h]{font-size: 5.6vw;height: 5.6vw; line-height: 5.6vw;}	/*自定义:字体（带行高） 42px */
+*[f=f45h]{font-size: 6.0vw;height: 6.0vw; line-height: 6.0vw;}	/*自定义:字体（带行高） 45px */
+*[f=f48h]{font-size: 6.4vw;height: 6.4vw; line-height: 6.4vw;}	/*自定义:字体（带行高） 48px */
+*[f=f51h]{font-size: 6.8vw;height: 6.8vw; line-height: 6.8vw;}	/*自定义:字体（带行高） 51px */
+*[f=f60h]{font-size: 8.0vw;height: 8.0vw; line-height: 8.0vw;}	/*自定义:字体（带行高） 60px */
+*[f=f72h]{font-size: 9.6vw;height: 9.6vw; line-height: 9.6vw;}	/*自定义:字体（带行高） 72px */
+*[f=f81h]{font-size:10.8vw;height:10.8vw; line-height:10.8vw;}	/*自定义:字体（带行高） 81px */
+ /*esCss="c" 常用颜色*/
+*[c=x00]{color:#000000;}	/*自定义:color颜色 白*/
+*[c=xff]{color:#ffffff;}	/*自定义:color颜色 黑*/
+*[c=xf7]{color:#f7f7fa;}	/*自定义:color颜色 极浅灰*/
+*[c=x99]{color:#999999;}	/*自定义:color颜色 灰*/
+*[c=x33]{color:#333;}	    /*自定义:color颜色 灰*/
+*[c=x66]{color:#666;}	    /*自定义:color颜色 灰*/
+*[c=xdc]{color:#dcdcdc;}	/*自定义:color颜色 浅灰*/
+*[c=xef]{color:#efefef;}	/*自定义:color颜色 浅浅灰*/
+*[c=g]{color:#09bb07;}	    /*自定义:color颜色 绿*/
+*[c=gl]{color:#4cd964;}	    /*自定义:color颜色 浅绿*/
+*[c=y]{color:#ffbe00;}	    /*自定义:color颜色 黄*/
+*[c=b]{color:#007aff;}	    /*自定义:color颜色 蓝*/
+*[c=bh]{color:#181741;}	    /*自定义:color颜色 深蓝*/
+*[c=bl]{color:#10aeff;}	    /*自定义:color颜色 浅蓝*/
+*[c=p]{color:#5856d6;}	    /*自定义:color颜色 紫*/
+*[c=pl]{color:#6b6ee3;}	    /*自定义:color颜色 浅紫*/
+*[c=yh]{color:#ff9500;}	    /*自定义:color颜色 深黄*/
+*[c=r]{color:#ff3b30;}	    /*自定义:color颜色 红*/
+*[c=rl]{color:#f76260;}	    /*自定义:color颜色 浅红*/
+*[c=rh]{color:#ff2d55;}	    /*自定义:color颜色 深红*/
+*[c=link]{color: #576b95;}  /*自定义:color颜色 带链接的一种蓝*/
+/*esCss="c" 带有透明度的常用颜色*/
+*[c=x99-5]{color:rgba(153,153,153,0.5);}	/*自定义:color颜色 灰*/
+/*------------------------------------------------------------------------------------------------------------*/
+/*esCss="bc" 背景颜色*/
+*[bc=x00]{background-color:#000000;}	/*自定义:背景颜色  白*/
+*[bc=xff]{background-color:#ffffff;}	/*自定义:背景颜色  黑*/
+*[bc=xf7]{background-color:#f7f7fa;}	/*自定义:背景颜色 极浅灰*/
+*[bc=x99]{background-color:#999999;}	/*自定义:背景颜色  灰*/
+*[bc=xdc]{background-color:#dcdcdc;}	/*自定义:背景颜色 浅灰*/
+*[bc=xef]{background-color:#efefef;}	/*自定义:背景颜色 浅灰*/
+*[bc=g]{background-color:#09bb07;}	    /*自定义:背景颜色  绿*/
+*[bc=gl]{background-color:#4cd964;}	    /*自定义:背景颜色 浅绿*/
+*[bc=y]{background-color:#ffbe00;}	    /*自定义:背景颜色  黄*/
+*[bc=b]{background-color:#007aff;}	    /*自定义:背景颜色  蓝*/
+*[bc=bh]{background-color:#181741;}	    /*自定义:背景颜色 深蓝*/
+*[bc=bl]{background-color:#10aeff;}	    /*自定义:背景颜色 浅蓝*/
+*[bc=p]{background-color:#5856c8;}	    /*自定义:背景颜色  紫*/
+*[bc=pl]{background-color:#6b6ee3;}	    /*自定义:背景颜色 浅紫*/
+*[bc=yh]{background-color:#ff9500;}	    /*自定义:背景颜色 深黄*/
+*[bc=r]{background-color:#ff3b30;}	    /*自定义:背景颜色  红*/
+*[bc=rl]{background-color:#f76260;}	    /*自定义:背景颜色 浅红*/
+*[bc=rh]{background-color:#ff2d55;}	    /*自定义:背景颜色 深红*/
+*[bc=link]{background-color:#576b95;}	    /*自定义:背景颜色 蓝绿*/
+*[bc=ys]{background-color:#cacad6;}     /*自定义:背景颜色 银*/
+*[bc=ts]{background-color:#faa066;}     /*自定义:背景颜色 铜*/
+/*esCss="bc" 带有透明度的背景颜色*/
+*[bc=x00-5]{background-color:rgba(0,0,0,0.5);}	        /*自定义:背景颜色  黑*/
+*[bc=x00-75]{background-color:rgba(0,0,0,0.75);}	        /*自定义:背景颜色  黑*/
+*[bc=x99-1]{background-color: rgba(153,153,153,0.1);}	/*自定义:阴影颜色 灰*/
+*[bc=xdc-1]{background-color: rgba(220,220,220,0.1);}	/*自定义:阴影颜色 浅灰*/
+*[bc=xdc-3]{background-color: rgba(220,220,220,0.3);}	/*自定义:阴影颜色 浅灰*/
+*[bc=xdc-5]{background-color: rgba(220,220,220,0.5);}	/*自定义:阴影颜色 浅灰*/
+*[bc=g-1]{background-color: rgba(9,187,7,0.1);}	    	/*自定义:阴影颜色  绿*/
+*[bc=gl-1]{background-color: rgba(76,217,100,0.1);}		/*自定义:阴影颜色 浅绿*/
+*[bc=y-1]{background-color: rgba(255,190,0,0.1);}	    /*自定义:阴影颜色  黄*/
+*[bc=b-1]{background-color: rgba(0,122,255,0.1);}	    /*自定义:阴影颜色  蓝*/
+*[bc=b-5]{background-color: rgba(0,122,255,0.5);}	    /*自定义:阴影颜色  蓝*/
+*[bc=bh-1]{background-color: rgba(24,23,65,0.1);}	    /*自定义:阴影颜色 深蓝*/
+*[bc=bl-1]{background-color: rgba(16,174,255,0.1);}		/*自定义:阴影颜色 浅蓝*/
+*[bc=p-1]{background-color: rgba(88,86,200,0.1);}	    /*自定义:阴影颜色  紫*/
+*[bc=pl-1]{background-color: rgba(107,110,227,0.1);}	/*自定义:阴影颜色 浅紫*/
+*[bc=yh-1]{background-color: rgba(255,149,0,0.1);}	    /*自定义:阴影颜色 深黄*/
+*[bc=yh-25]{background-color: rgba(255,149,0,0.25);}	    /*自定义:背景颜色 深黄*/
+*[bc=yh-5]{background-color: rgba(255,149,0,0.5);}	    /*自定义:背景颜色 深黄*/
+*[bc=r-1]{background-color: rgba(255,59,48,0.1);}	    /*自定义:阴影颜色  红*/
+*[bc=rl-1]{background-color: rgba(247,98,96,0.1);}	    /*自定义:阴影颜色 浅红*/
+*[bc=rh-1]{background-color: rgba(255,45,85,0.1);}	    /*自定义:阴影颜色 深红*/
+/*  esCss="shadow" 投影颜色*/
+*[shadow=x99]{box-shadow: 0 0 20px 0 rgba(153,153,153,0.5);}	    /*自定义:阴影颜色 灰*/
+*[shadow=xdc]{box-shadow: 0 0 20px 0 rgba(220,220,220,0.5);}	    /*自定义:阴影颜色 浅灰*/
+*[shadow=xee]{box-shadow: 0 0 20px 0 rgba(238,238,238,1);}	    /*自定义:阴影颜色 浅灰*/
+*[shadow=g]{box-shadow: 0 10px 10px -5px rgba(9,187,7,0.5);}	    /*自定义:阴影颜色  绿*/
+*[shadow=gl]{box-shadow: 0 10px 10px -5px rgba(76,217,100,0.5);}	/*自定义:阴影颜色 浅绿*/
+*[shadow=y]{box-shadow: 0 10px 10px -5px rgba(255,190,0,0.5);}	    /*自定义:阴影颜色  黄*/
+*[shadow=b]{box-shadow: 0 10px 10px -5px rgba(0,122,255,0.5);}	    /*自定义:阴影颜色  蓝*/
+*[shadow=bh]{box-shadow: 0 10px 10px -5px rgba(24,23,65,0.5);}	    /*自定义:阴影颜色 深蓝*/
+*[shadow=bl]{box-shadow: 0 10px 10px -5px rgba(16,174,255,0.5);}	/*自定义:阴影颜色 浅蓝*/
+*[shadow=p]{box-shadow: 0 10px 10px -5px rgba(88,86,200,0.5);}	    /*自定义:阴影颜色  紫*/
+*[shadow=pl]{box-shadow: 0 10px 10px -5px rgba(107,110,227,0.5);}	/*自定义:阴影颜色 浅紫*/
+*[shadow=yh]{box-shadow: 0 10px 10px -5px rgba(255,149,0,0.5);}	    /*自定义:阴影颜色 深黄*/
+*[shadow=r]{box-shadow: 0 10px 10px -5px rgba(255,59,48,0.5);}	    /*自定义:阴影颜色  红*/
+*[shadow=rl]{box-shadow: 0 10px 10px -5px rgba(247,98,96,0.5);}	    /*自定义:阴影颜色 浅红*/
+*[shadow=rh]{box-shadow: 0 10px 10px -5px rgba(255,45,85,0.5);}	    /*自定义:阴影颜色 深红*/
+/* esCss="w_space" 列间隔 start ------------------------------------------------------------------------------------ */
+div[w_space=w06]{width:0.8vw; height: 100%;}  /*自定义:列间隔 6px	 */
+div[w_space=w09]{width:1.2vw; height: 100%;}  /*自定义:列间隔 9px	 */
+div[w_space=w12]{width:1.6vw; height: 100%;}  /*自定义:列间隔 12px */
+div[w_space=w15]{width:2vw; height: 100%;}    /*自定义:列间隔 15px */
+div[w_space=w18]{width:2.4vw; height: 100%;}  /*自定义:列间隔 18px */
+div[w_space=w21]{width:2.8vw; height: 100%;}  /*自定义:列间隔 21px */
+div[w_space=w24]{width:3.2vw; height: 100%;}  /*自定义:列间隔 24px */
+div[w_space=w30]{width:4vw; height: 100%;}    /*自定义:列间隔 30px */
+div[w_space=w36]{width:4.8vw; height: 100%;}  /*自定义:列间隔 36px */
+div[w_space=w39]{width:5.2vw; height: 100%;}  /*自定义:列间隔 39px */
+div[w_space=w45]{width:6vw; height: 100%;}  /*自定义:列间隔 39px */
+div[w_space=w48]{width:6.4vw; height: 100%;}  /*自定义:列间隔 48px */
+div[w_space=w60]{width:8vw; height: 100%;}    /*自定义:列间隔 60px */
+/* esCss="h_space" 行间隔*/
+div[h_space=h06]{height:0.8vw; width: 100%;}  /*自定义:行间隔  6px */
+div[h_space=h09]{height:1.2vw; width: 100%;}  /*自定义:行间隔 9px  */
+div[h_space=h12]{height:1.6vw; width: 100%;}  /*自定义:行间隔 12px */
+div[h_space=h15]{height:2vw; width: 100%;}    /*自定义:行间隔 15px */
+div[h_space=h18]{height:2.4vw; width: 100%;}  /*自定义:行间隔 18px */
+div[h_space=h21]{height:2.8vw; width: 100%;}  /*自定义:行间隔 21px */
+div[h_space=h24]{height:3.2vw; width: 100%;}  /*自定义:行间隔 24px */
+div[h_space=h30]{height:4vw; width: 100%;}    /*自定义:行间隔 30px */
+div[h_space=h33]{height:4.4vw; width: 100%;}  /*自定义:行间隔 33px */
+div[h_space=h36]{height:4.8vw; width: 100%;}  /*自定义:行间隔 36px */
+div[h_space=h39]{height:5.2vw; width: 100%;}  /*自定义:行间隔 39px */
+div[h_space=h42]{height:5.6vw; width: 100%;}  /*自定义:行间隔 42px */
+div[h_space=h48]{height:6.4vw; width: 100%;}  /*自定义:行间隔 48px */
+div[h_space=h51]{height:6.8vw; width: 100%;}  /*自定义:行间隔 48px */
+div[h_space=h60]{height:8vw; width: 100%;}    /*自定义:行间隔 60px */
+/*row_space 列间隔  end ------------------------------------------------------------------------------------- */
+/* esCss="r" 圆角*/
+*[r=r3]{border-radius: 0.4vw;}	/*自定义:圆角 3px */
+*[r=r6]{border-radius: 0.8vw;}	/*自定义:圆角 6px */
+*[r=r9]{border-radius: 1.2vw;}	/*自定义:圆角 9px */
+*[r=r12]{border-radius: 1.6vw;}	/*自定义:圆角 12px */
+*[r=r21]{border-radius: 2.8vw;}	/*自定义:圆角 21px*/
+*[r=r30]{border-radius: 4vw;}	/*自定义:圆形 30px */
+*[r=r60]{border-radius: 8vw;}	/*自定义:圆形 60px */
+*[r=r50]{border-radius: 50%;}	/*自定义:圆形 50% */
+/*------------------------------------------------------------------------------------------------------------*/
+/*常用宽度*/
+/*esCss=w*/
+*[w=p100]{width:   100%}      /*自定义:宽度 百分比 宽度100%     */
+*[w=v100]{width:  100vw}      /*自定义:宽度 可视宽度100vw       */
+*[w=b30] {width:   92vw}      /*自定义:宽度 92.0vw 留边 30*2	*/
+*[w=b24] {width: 93.6vw}      /*自定义:宽度 93.6vw 留边 24*2   	*/
+*[w=b20] {width: 97.333vw}    /*自定义:宽度 97.333vw 留边 10*2   	*/
+*[w=r03] {width:  33.3%}      /*自定义:三联排单元素宽度 33.3%   */
+*[w=r04] {width:  25.0%}      /*自定义:四联排单元素宽度 25.0%   */
+*[w=r05] {width:  20.0%}      /*自定义:五联排单元素宽度 20.0%   */
+/*flex 水平主轴 start --------------------------------------------------------------------------------------- */
+/*文字不换行 水平排序 上下居中, 左右居中|居左|居右|两端 */
+/* esCss="flex" */
+div[flex=rowc]{display: flex;display: -webkit-flex;flex-flow: row nowrap;-webkit-flex-flow: row nowrap;justify-content:center;-webkit-justify-content:center;align-items:center;-webkit-align-items:center;}	        /*自定义:水平排列 上下居中 水平居中对齐*/
+div[flex=rowl]{display: flex;display: -webkit-flex;flex-flow:row nowrap;-webkit-flex-flow:row nowrap;justify-content:flex-start;-webkit-justify-content:flex-start;align-items:center;-webkit-align-items:center;}	    /*自定义:水平排列 上下居中 水平居左对齐*/
+div[flex=rowr]{display: flex;display: -webkit-flex;flex-flow:row nowrap;-webkit-flex-flow:row nowrap;justify-content:flex-end;-webkit-justify-content:flex-end;align-items:center;-webkit-align-items:center;}	        /*自定义:水平排列 上下居中 水平居右对齐*/
+div[flex=rowlr]{display: flex;display: -webkit-flex;flex-flow:row nowrap;-webkit-flex-flow:row nowrap;justify-content:space-between;-webkit-justify-content:space-between;align-items:center;-webkit-align-items:center;}	/*自定义:水平排列 上下居中 水平两端对齐*/
+div[flex=rowlrb]{display: flex;display: -webkit-flex;flex-flow:row nowrap;-webkit-flex-flow:row nowrap;justify-content:space-between;-webkit-justify-content:space-between;align-items:flex-end;-webkit-align-items:flex-end;}	/*自定义:水平排列 上下居中 水平两端对齐*/
+/*文字换行*/
+div[flex=rowc_wrap]{display: flex;display: -webkit-flex;flex-flow:row wrap;-webkit-flex-flow:row wrap;justify-content:center;-webkit-justify-content:center;align-items:center;-webkit-align-items:center;}	        /*自定义:水平排列 上下居中 水平居中对齐 文字自动换行*/
+div[flex=rowl_wrap]{display: flex;display: -webkit-flex;flex-flow:row wrap;-webkit-flex-flow:row wrap;justify-content:flex-start;-webkit-justify-content:flex-start;align-items:center;-webkit-align-items:center;}	    /*自定义:水平排列 上下居中 水平居左对齐 文字自动换行*/
+div[flex=rowr_wrap]{display: flex;display: -webkit-flex;flex-flow:row wrap;-webkit-flex-flow:row wrap;justify-content:flex-end;-webkit-justify-content:flex-end;align-items:center;-webkit-align-items:center;}	    /*自定义:水平排列 上下居中 水平居右对齐 文字自动换行*/
+div[flex=rowlr_wrap]{display: flex;display: -webkit-flex;flex-flow:row wrap;-webkit-flex-flow:row wrap;justify-content:space-between;-webkit-justify-content:space-between;align-items:center;-webkit-align-items:center;}	/*自定义:水平排列 上下居中 水平两端对齐 文字自动换行*/
+div[flex=rowlr_coltb]{display: flex;display: -webkit-flex;flex-flow:row wrap;-webkit-flex-flow:row wrap;justify-content:space-between;-webkit-justify-content:space-between;align-content:space-between;}	/*自定义:水平排列 水平两端 上下两端 自动换行*/
+/*flex 水平主轴 end ----------------------------------------------------------------------------------------- */
+/*flex 垂直主轴 start --------------------------------------------------------------------------------------- */
+/* 垂直排序, 上下居中, 左右居中|居左|居右*/
+div[flex=colcc]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:center;-webkit-justify-content:center;align-items:center;-webkit-align-items:center;}	        /*自定义:垂直排列 上下居中 水平居中*/
+div[flex=colcl]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:center;-webkit-justify-content:center;align-items:flex-start;-webkit-align-items:flex-start;}	    /*自定义:垂直排列 上下居中 水平居左*/
+div[flex=colcr]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:center;-webkit-justify-content:center;align-items:flex-end;-webkit-align-items:flex-end;}	        /*自定义:垂直排列 上下居中 水平居右*/
+/*垂直排序, 上下居顶*/
+div[flex=coltc]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:flex-start;-webkit-justify-content:flex-start;align-items:center;-webkit-align-items:center;}	    /*自定义:垂直排列 上下居顶 水平居中*/
+div[flex=coltl]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:flex-start;-webkit-justify-content:flex-start;align-items:flex-start;-webkit-align-items:flex-start;}    /*自定义:垂直排列 上下居顶 水平居左*/
+div[flex=coltr]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:flex-start;-webkit-justify-content:flex-start;align-items:flex-end;-webkit-align-items:flex-end;}	    /*自定义:垂直排列 上下居顶 水平居右*/
+/* 垂直底*/
+div[flex=colbc]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:flex-end;-webkit-justify-content:flex-end;align-items:center;-webkit-align-items:center;}	        /*自定义:垂直排列 上下居底 水平居中*/
+div[flex=colbl]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:flex-end;-webkit-justify-content:flex-end;align-items:flex-start;-webkit-align-items:flex-start;}	    /*自定义:垂直排列 上下居底 水平居左*/
+div[flex=colbr]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:flex-end;-webkit-justify-content:flex-end;align-items:flex-end;-webkit-align-items:flex-end;}	    /*自定义:垂直排列 上下居底 水平居右*/
+/*垂直两端*/
+div[flex=coltbc]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:space-between;-webkit-justify-content:space-between;align-items:center;-webkit-align-items:center;}	    /*自定义:垂直排列 上下两端 水平居中*/
+div[flex=coltbl]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:space-between;-webkit-justify-content:space-between;align-items:flex-start;-webkit-align-items:flex-start;}	/*自定义:垂直排列 上下两端 水平居左*/
+div[flex=coltbr]{display: flex;display: -webkit-flex;flex-direction: column;-webkit-flex-direction: column;justify-content:space-between;-webkit-justify-content:space-between;align-items:flex-end;-webkit-align-items:flex-end;}	    /*自定义:垂直排列 上下两端 水平居右*/
+/*flex 垂直主轴  end----------------------------------------------------------------------------------------- */
+/* 1像素分割线 */
+hr[line=s]{width: 100%;height: 0.5px;border:none;border-top:0.5px solid #dcdcdc;margin-top: -0.5px}                   	/*自定义:1像素分割线 向上缩进1像素 实线 */
+div[line=s]{width: 100%;height: 0.5px !important;border:none;border-top:0.5px solid #dcdcdc;margin-top: -0.5px}       	/*自定义:1像素分割线 向上缩进1像素 实线 */
+div[line=sl]{width:0.5px !important;height: 100%;border:none;border-left:0.5px solid #dcdcdc;margin-left: -0.5px}		/*自定义:1像素分割线 向左缩进1像素 实线 */
+hr[line=d]{width: 100%;height: 0.5px;border:none;border-top:0.5px dashed #dcdcdc; margin-top: -0.5px}                 	/*自定义:1像素分割线 向上缩进1像素 虚线 */
+div[line=b]{border:none;background-color:#dcdcdc;}       	/*自定义:分隔块*/
+div[line=b9]{border:none;background-color:#dcdcdc;height:1.2vw;}       	/*自定义:分隔块 9px*/
+div[line=b9-ef]{border:none;background-color:#efefef;height:1.2vw;}       	/*自定义:分隔块 9px*/
+div[line=b12]{border:none;background-color:#dcdcdc;height:1.6vw;}       	/*自定义:分隔块 12px*/
+div[line=b12-ef]{border:none;background-color:#efefef;height:1.6vw;}       	/*自定义:分隔块 12px*/
+div[bf=s]{border-bottom: 0.5px solid #dcdcdc;}       	/*自定义: 表分割线*/
+div[bf=e]>[bf=s]:last-child{border-bottom: 0 !important;}		        /*自定义: 表最后一个一级子元素无分割线*/
+div[bf=e]>:last-child>[bf=s]{border-bottom: 0 !important;}              /*自定义: 表最后一个一级子元素中包含[bf=s]的子元素无分割线*/
+/*todo: 完善hr标签 生成策略*/
+/*背景图片: 圆/方----------------------------------------------------------------------------------------- */
+div[bgi~=r]{border-radius:50.0%;background-size: 66.67%;background-repeat: no-repeat; background-position: center;}  /* 自定义:圆形图标背景*/
+div[bgi~=s]{border-radius:0.4vw;background-size: 75.00%;background-repeat: no-repeat; background-position: center;}  /* 自定义:方形图标背景 */
+div[bgi~=s9]{border-radius:1.2vw;background-size: 75.00%;background-repeat: no-repeat; background-position: center;}  /* 自定义:方形图标背景 圆角是9px*/
+div[bgi~=s100]{border-radius:1.2vw;background-size: 100.00%;background-repeat: no-repeat; background-position: center;}  /* 自定义:方形图标背景 圆角是9px*/
+/*背景图片----------------------------------------------------------------------------------------- */
+/*箭头 左 右 上 下 可以通过行样式的 宽 高 改变大小*/
+div[arrow=l]{width: 2.4vw;height: 2.4vw;transform: rotate(-135deg);margin-right: 4vw;border-width: 2px 2px 0 0;border-style: solid;border-color: rgb(220, 220, 220);}   /* 自定义:箭头 左 */
+div[arrow=r]{width: 2.4vw;height: 2.4vw;transform: rotate(45deg);  margin-right: 4vw;border-width: 2px 2px 0 0;border-style: solid;border-color: rgb(220, 220, 220);}   /* 自定义:箭头 右 */
+div[arrow=u]{width: 2.4vw;height: 2.4vw;transform: rotate(-45deg); margin-right: 4vw;border-width: 2px 2px 0 0;border-style: solid;border-color: rgb(220, 220, 220);}   /* 自定义:箭头 上 */
+div[arrow=d]{width: 2.4vw;height: 2.4vw;transform: rotate(135deg); margin-right: 4vw;border-width: 2px 2px 0 0;border-style: solid;border-color: rgb(220, 220, 220);}   /* 自定义:箭头 下 */
+
+/*变量样式*/
+[variable=true]{text-decoration:underline;}
+
+/*字体长度超过限制……*/
+*[fl=true]{text-overflow:ellipsis;white-space: nowrap;overflow:hidden;}
